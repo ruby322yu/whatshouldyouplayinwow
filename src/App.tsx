@@ -37,15 +37,11 @@ export class App extends React.Component<{}, IState> {
     }
     public render() {
         return (
-
             <div className="App">
                 <Header />
                 {this.state.resultSet ? this.renderResult() : this.renderQuiz()}
                 <Footer />
-
             </div>
-
-
         );
     }
 
